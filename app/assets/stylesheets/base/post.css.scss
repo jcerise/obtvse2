@@ -99,7 +99,7 @@ code, .CodeRay {
   margin: 1em 0;
   font-size: 14px;
   line-height: 24px;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
 
   .line-numbers {

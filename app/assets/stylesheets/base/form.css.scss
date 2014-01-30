@@ -9,7 +9,7 @@ form {
     margin: 0 0 2px 0;
     display: block;
     font-size: 14px;
-    color: rgba(0,0,0,0.8);
+    color: white;
   }
 
   .error-messages {
@@ -35,7 +35,7 @@ form {
   input[type="password"] {
     padding: 8px;
     border: none;
-    background: rgba(0,0,0,0.1);
+    background: rgba(204, 204, 204,0.1);
     border-radius: 4px;
     width: 100%;
     line-height: 1.4em;

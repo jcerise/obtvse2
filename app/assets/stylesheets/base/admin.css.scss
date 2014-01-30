@@ -2,11 +2,13 @@
 
 $admin-pad: 20px;
 $admin-bg: #f2f2f2;
-$admin-editing-bg: #fff;
-$admin-bar-bg: $admin-editing-bg;
+$admin-editing-bg: white;
+$admin-bar-bg: white;
+$admin-popup-bg: rgb(204, 204, 204);
 $admin-bar-border-color: #ddd;
 $admin-bar-border: darken($admin-bar-bg,6%);
 $theme: #d23e2f;
+$theme-bg: #151515;
 
 $bar-height: 70px;
 $bar-button-width: 70px;
@@ -315,7 +317,7 @@ form .permalink {
 }
 
 #post-preview {
-  background: #f0f4fc;
+  background: $theme-bg;
   border-left: 1px solid #dbe3f1;
   opacity: 0;
   z-index: -1;
@@ -422,7 +424,7 @@ form .permalink {
     width: 340px;
     margin: 0 0 0 -170px;
     padding: 10px;
-    background: $admin-bar-bg;
+    background: $admin-popup-bg;
     @include border-top-radius(8px);
     @include box-sizing(border-box);
 

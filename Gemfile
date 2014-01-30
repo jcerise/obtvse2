@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '1.9.3'
 
 gem 'rails', '~> 4.0'
 gem 'activerecord-session_store'
@@ -43,7 +43,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3', '~> 1', platform: [:ruby, :mswin, :mingw]
+  gem 'pg', '~> 0.14'
   gem 'capistrano'
   gem 'capistrano_colors'
   gem 'quiet_assets'
