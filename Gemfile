@@ -43,7 +43,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'pg', '~> 0.14'
+  gem 'sqlite3'
   gem 'capistrano'
   gem 'capistrano_colors'
   gem 'quiet_assets'
