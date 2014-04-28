@@ -7,4 +7,5 @@
 //= require prettify/lang-css
 //= require prettify/lang-sql
 //= require jquery-proudify.min
+//= require gh-profile-widget
 //= require main
